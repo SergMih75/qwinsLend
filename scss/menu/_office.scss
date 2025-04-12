@@ -1,0 +1,49 @@
+.office {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.themes,
+.lang {
+    width: 40px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    // cursor: pointer;
+    border: none;
+}
+
+.themes {
+    background: #fff;
+}
+
+.lang {
+    background: $globalBg;
+}
+
+.themes > label,
+.lang > label {
+    width: 100%;
+    height: 100%;
+}
+
+.themes__check,
+.lang__check {
+    display: none;
+}
+
+.themes__img,
+.lang__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}

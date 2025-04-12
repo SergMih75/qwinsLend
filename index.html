@@ -4,9 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <title>Q-wins Lend</title>
 </head>
 <body>
+    <header class="header">
+    <main class="wrapper">
+        <div class="menu"  themes-bg = "dark">
+            <a class="menu__logo" href="#"><img src="./img/logo.png" alt="logo"></a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Выделенные сервера</a></li>
+                    <li><a href="#">Виртуальные сервера</a></li>
+                    <li><a href="#">Реферальная система</a></li>
+                    <li><a href="#">База знаний</a></li>
+                </ul>
+            </nav>
+            <div class="office">
+                <div class="themes">
+                    <label>
+                        <input type="checkbox" class="themes__check">
+                        <img class="themes__img" src="./img/dark__themes.png" alt="">
+                    </label>
+                </div>
+                <div class="lang">
+                    <label>
+                        <input type="checkbox" class="lang__check">
+                        <img class="lang__img" src="./img/ru__lang.png" alt="">
+                    </label>
+                </div>
+                <button class="btn">Войти</button>
+            </div>
+        </div>
+    </main>
+    </header>
+
     
+    <section class="pages">
+        <div class="wrapper">
+            <div class="main">
+                <div class="field">
+                    <div class="content">
+                        <h1 class="main__title">Облачные серверы нового поколения для вашего бизнеса</h1>
+                        <p class="text  main__text">В 3 раза быстрее обычного хостинга! Выделенные ресурсы, защита от DDoS и бесплатная миграция ваших проектов. Неограниченная пропускная способность и техподдержка за 2 минуты. Попробуйте и убедитесь сами!</p>
+                        <button class="btn  btn-big">Перейти</button>
+                    </div>
+                </div>
+            </div>
+            <div class="proposal">
+                <div class="proposal__item"  themes-bg = "dark">
+                    <h2 class="subtitle  proposal__subtitle">Выделенные серверы</h2>
+                    <p class="text  proposal__text">Мощные автономные решения с полным контролем, идеально подходящие для крупных бизнес-приложений</p>
+                    <button class="btn  btn-middle">Перейти</button>
+                </div>
+
+                <div class="proposal__item"  themes-bg = "dark">
+                    <h2 class="subtitle  proposal__subtitle">Виртуальные серверы</h2>
+                    <p class="text  proposal__text">Экономичное решение на основе виртуализации, обеспечивающее высокую производительность</p>
+                    <button class="btn  btn-middle">Перейти</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/themesChange.js"></script>
+    <script src="./js/langChange.js"></script>
 </body>
 </html>

@@ -1,5 +1,247 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  padding: 2px;
+  background-color: #0a0d10;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0d1419;
+}
+
+body {
+  max-width: 1920px;
+  padding-top: 10px;
+  margin: 0 auto;
+  width: calc(100vw - 10px);
+  background-color: #0a0d10;
+  height: 1000px;
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
+.fonts-light {
+  color: #0a0d10;
+}
+
+.wrapper {
+  width: 61.5%;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 110%;
+  color: #fff;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.btn {
+  width: 84px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 0 17px 0 rgba(0, 130, 251, 0.46);
+  border: none;
+  background: #0082fb;
+  cursor: pointer;
+}
+.btn-big {
+  width: 312px;
+}
+.btn-middle {
+  width: 213px;
+}
+
+.header {
+  max-width: 1920px;
+  width: calc(100vw - 10px);
+  position: fixed;
+  z-index: 99;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.menu__logo {
+  cursor: pointer;
+}
+
+.nav > ul {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.office {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.themes,
+.lang {
+  width: 40px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: none;
+}
+
+.themes {
+  background: #fff;
+}
+
+.lang {
+  background: #0a0d10;
+}
+
+.themes > label,
+.lang > label {
+  width: 100%;
+  height: 100%;
+}
+
+.themes__check,
+.lang__check {
+  display: none;
+}
+
+.themes__img,
+.lang__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.main {
+  background-image: url(../img/pages/global/Start__pic.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 50px;
+  padding-top: 131px;
+  padding-bottom: 137px;
+}
+.main__title {
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 110%;
+}
+.main__text {
+  margin-bottom: 40px;
+}
+
+.field {
+  width: 40.5%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  background-image: radial-gradient(circle, rgba(19, 128, 206, 0.21) 0%, #0a0d10 75%);
+  transform: translateX(-10%);
+  -webkit-transform: translateX(-10%);
+  -moz-transform: translateX(-10%);
+  -ms-transform: translateX(-10%);
+  -o-transform: translateX(-10%);
+}
+
+.content {
+  transform: translateX(10%);
+  -webkit-transform: translateX(10%);
+  -moz-transform: translateX(10%);
+  -ms-transform: translateX(10%);
+  -o-transform: translateX(10%);
+}
+
+.proposal {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.proposal__item {
+  width: 50%;
+  padding: 40px;
+  border: none;
+  background-color: #0d1419;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border: none;
+}
+.proposal__text {
+  width: 60%;
+}
+.proposal__subtitle {
+  margin-bottom: 40px;
+}
+.proposal__text {
+  font-size: 1rem;
+  margin-bottom: 66px;
+}
+.proposal__item:nth-child(1) {
+  background-image: url(../img/pages/global/material.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.proposal__item:nth-child(2) {
+  background-image: url(../img/pages/global/cloud.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }/*# sourceMappingURL=main.css.map */

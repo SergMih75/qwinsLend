@@ -1,0 +1,10 @@
+.nav>ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: $fontColorWhite;
+    font-size: 0.8rem;
+    font-weight: 500;
+}

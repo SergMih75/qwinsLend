@@ -1,0 +1,28 @@
+.btn {
+    width: 84px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $fontColorWhite;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 17px 0 rgba(0, 130, 251, 0.46);
+    border: none;
+    background: #0082fb;
+    cursor: pointer;
+
+    &-big {
+        width: 312px;
+    }
+
+    &-middle {
+        width: 213px;
+    }
+}
