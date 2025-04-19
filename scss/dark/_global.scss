@@ -19,11 +19,11 @@ a {
 
 *::-webkit-scrollbar-track {
     padding: 2px;
-    background-color: $globalBg;
+    background-color: var(--globalBg);
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: $secondGlobalBg;
+    background-color: var(--secondGlobalBg);
 }
 
 body {
@@ -31,13 +31,13 @@ body {
     padding-top: 10px;
     margin: 0 auto;
     width: calc(100vw - 10px);
-    background-color: $globalBg;
+    background-color: var(--globalBg);
     height: 1000px;
 }
 
-.bg-light {
-    background-color: #fff;
-}
+// .bg-light {
+//     background-color: #fff;
+// }
 
 .fonts-light {
     color: $globalBg;
@@ -48,15 +48,24 @@ body {
     margin: 0 auto;
 }
 
+.title,
+.subtitle,
+.link,
+.text {
+    color: var(--fontColorDark);
+}
+
 .subtitle {
     font-size: 2.25rem;
     font-weight: 500;
     line-height: 110%;
-    color: $fontColorWhite;
+    // color: $fontColorWhite;
+    // color: var(--fontColorDark);
 }
 
 .text {
     font-weight: 500;
     font-size: 0.8rem;
-    color: $fontColorWhite;
+    // color: $fontColorWhite;
+        // color: var(--fontColorDark);
     }

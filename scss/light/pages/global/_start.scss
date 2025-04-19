@@ -14,7 +14,7 @@
 
 	&__title {
 		margin-bottom: 20px;
-		color: $fontColorWhite;
+		// color: $fontColorWhite;
 
 		font-weight: 600;
 		font-size: 3rem;
@@ -70,7 +70,8 @@
 		width: 50%;
 		padding: 40px;
 		border: none;
-		background-color: $secondGlobalBg;
+		// background-color: $secondGlobalBg;
+        background-color: var(--secondGlobalBgLight);
 		border-radius: 15px;
 		-webkit-border-radius: 15px;
 		-moz-border-radius: 15px;

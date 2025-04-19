@@ -1,0 +1,26 @@
+.header {
+    max-width: 1920px;
+    width: calc(100vw - 10px);
+    position: fixed;
+    z-index: 99;
+}
+
+.menu {
+    padding: 3px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	background-color: var(--secondGlobalBgLight);
+	// border-radius: 8px;
+	// -webkit-border-radius: 8px;
+	// -moz-border-radius: 8px;
+	// -ms-border-radius: 8px;
+	// -o-border-radius: 8px;
+	
+    &__logo {
+		// background-color: var(--globalBg);
+		// height: 1005px;
+		cursor: pointer;
+	}
+}

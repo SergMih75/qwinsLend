@@ -1,0 +1,107 @@
+.main {
+	background-image: url(../img/pages/global/Start__pic.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+	padding-top: 131px;
+    padding-bottom: 137px;
+
+	// &__title,
+	// &__text {
+	// 	width: 40.5%;
+	// }
+
+	&__title {
+		margin-bottom: 20px;
+		// color: $fontColorWhite;
+
+		font-weight: 600;
+		font-size: 3rem;
+		line-height: 110%;
+	}
+
+	&__text {
+		margin-bottom: 40px;
+	}
+}
+
+
+.field {
+            //position: relative;
+            width: 40.5%;
+            border-radius: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            -o-border-radius: 100%;
+            background-image: radial-gradient(circle, $fieldGradient 0%, $globalBg 75%);
+            //filter: blur(400px);
+            //-webkit-filter: blur(400px);
+            transform: translateX(-10%);
+            -webkit-transform: translateX(-10%);
+            -moz-transform: translateX(-10%);
+            -ms-transform: translateX(-10%);
+            -o-transform: translateX(-10%);
+}
+
+.content {
+        //position: relative;
+        //top: 0;
+        //right: 0;
+        //bottom: 0;
+        //left: 0;
+        //z-index: 2;
+        transform: translateX(10%);
+        -webkit-transform: translateX(10%);
+        -moz-transform: translateX(10%);
+        -ms-transform: translateX(10%);
+        -o-transform: translateX(10%);
+}
+
+
+.proposal {
+	// margin-top: 137px;
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+
+	&__item {
+		width: 50%;
+		padding: 40px;
+		border: none;
+		// background-color: $secondGlobalBg;
+        background-color: var(--secondGlobalBg);
+		border-radius: 15px;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		-ms-border-radius: 15px;
+		-o-border-radius: 15px;
+        border: none;
+	}
+
+    &__text {
+        width: 60%;
+    }
+
+    &__subtitle {
+        margin-bottom: 40px;
+    }
+
+    &__text {
+        font-size: 1rem;
+        margin-bottom: 66px;
+    }
+
+	&__item:nth-child(1) {
+		background-image: url(../img/pages/global/material.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+	}
+
+    &__item:nth-child(2) {
+		background-image: url(../img/pages/global/cloud.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+	}
+}

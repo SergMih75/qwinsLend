@@ -41,12 +41,8 @@ body {
   padding-top: 10px;
   margin: 0 auto;
   width: calc(100vw - 10px);
-  background-color: var(--globalBg);
+  background-color: var(--globalBgLight);
   height: 1000px;
-}
-
-.fonts-light {
-  color: #0a0d10;
 }
 
 .wrapper {
@@ -58,7 +54,7 @@ body {
 .subtitle,
 .link,
 .text {
-  color: var(--fontColorDark);
+  color: var(--fontColorLight);
 }
 
 .subtitle {
@@ -112,10 +108,9 @@ body {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  background-color: var(--secondGlobalBg);
+  background-color: var(--secondGlobalBgLight);
 }
 .menu__logo {
-  background-color: var(--secondGlobalBg);
   cursor: pointer;
 }
 
@@ -225,7 +220,7 @@ body {
   width: 50%;
   padding: 40px;
   border: none;
-  background-color: var(--secondGlobalBg);
+  background-color: var(--secondGlobalBgLight);
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -252,4 +247,4 @@ body {
   background-image: url(../img/pages/global/cloud.png);
   background-repeat: no-repeat;
   background-position: bottom right;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main-light.css.map */
