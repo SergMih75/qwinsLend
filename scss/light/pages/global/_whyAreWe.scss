@@ -1,0 +1,133 @@
+.why {
+    text-align: center;
+    padding-top: 80px;
+
+    &__title {
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 110%;
+        margin-bottom: 40px;
+    }
+}
+
+.advantages {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    &__item {
+        width: 20%;
+        max-width: 160px;
+        padding: 48px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        backdrop-filter: blur(25px);
+        background-color: var(--secondGlobalBgLight);
+}
+
+&__text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 110%;
+    color: var(--fontColorAdvantages);
+}
+}
+
+.advantages__item:hover  .advantages__text {
+    color: var(--fontColorAdvantagesHover);
+    transition: 1500ms linear;
+    -webkit-transition: 1500ms linear;
+    -moz-transition: 1500ms linear;
+    -ms-transition: 1500ms linear;
+    -o-transition: 1500ms linear;
+}
+
+.advantages__item:hover {
+    background: linear-gradient(180deg, var(--gradientColorAdvantagesHover) 0%, var(--secondGlobalBgLight) 26%, var(--secondGlobalBgLight) 100%);
+    transition: 700ms;
+    -webkit-transition: 700ms;
+    -moz-transition: 700ms;
+    -ms-transition: 700ms;
+    -o-transition: 700ms;
+}
+
+.advantages__item:hover svg path {
+        fill: var(--fontColorAdvantagesHover);
+        transition: 700ms linear;
+        -webkit-transition: 700ms linear;
+        -moz-transition: 700ms linear;
+        -ms-transition: 700ms linear;
+        -o-transition: 700ms linear;
+}
+
+.specifications {
+    width: 100%;
+    padding: 40px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, var(--gradientColorAdvantagesHover) 0%, var(--secondGlobalBgLight) 26%, var(--secondGlobalBgLight) 100%);
+    border: none;
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    // background-image: url(../../../../img/pages/whyAreWe/centralPic.png);
+    // background-repeat: no-repeat;
+    // background-position: center right;
+
+    &__declaration {
+        width: 50%;
+    }
+
+    &__title {
+        // width: 45.5%;
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 110%;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        // width: 45.5%;
+        font-weight: 400;
+        font-size: 0.8rem;
+        margin-bottom: 40px;
+    }
+}
+
+.characteristic {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    &__item {
+        width: 33.3%;
+    }
+
+    &__title {
+        margin: 24px 0 10px;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: .8rem;
+        color: var(--fontColorAdvantages);
+    }
+}
